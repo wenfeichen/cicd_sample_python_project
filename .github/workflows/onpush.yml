@@ -3,7 +3,7 @@ name: Test pipeline
 on:
   push:
     branches:
-      - '**'
+      - 'main'
     tags-ignore:
       - 'v*' # this tag type is used for release pipelines
 
