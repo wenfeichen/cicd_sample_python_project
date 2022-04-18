@@ -1,6 +1,6 @@
 setuptools
 wheel
-pyspark==3.8.10
+pyspark==3.2.1
 pytest
 pytest-cov
 dbx
