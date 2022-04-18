@@ -4,8 +4,8 @@
             {
                 "name": "cicd_sample_python_project-sample",
                 "new_cluster": {
-                    "spark_version": "7.3.x-cpu-ml-scala2.12",
-                    "node_type_id": "i3.xlarge",
+                    "spark_version": "9.1.x-scala2.12",
+                    "node_type_id": "r4.2xlarge",
                     "aws_attributes": {
                         "first_on_demand": 0,
                         "availability": "SPOT"
@@ -30,8 +30,8 @@
             {
                 "name": "cicd_sample_python_project-sample-integration-test",
                 "new_cluster": {
-                    "spark_version": "7.3.x-cpu-ml-scala2.12",
-                    "node_type_id": "i3.xlarge",
+                    "spark_version": "9.1.x-scala2.12",
+                    "node_type_id": "r4.2xlarge",
                     "aws_attributes": {
                         "first_on_demand": 0,
                         "availability": "SPOT"
