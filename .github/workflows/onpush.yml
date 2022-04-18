@@ -42,7 +42,7 @@ jobs:
 
       - name: Deploy integration test
         run: |
-          dbx deploy --jobs=cicd_sample_python_project-sample-integration-test --files-only
+          dbx deploy --job=cicd_sample_python_project-sample-integration-test --files-only
 
       - name: Run integration test
         run: |
